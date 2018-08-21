@@ -10,6 +10,7 @@ agent {
   stages {
     stage('Build') {
         steps {
+            echo 'Harkishan'
             sh 'mvn -B -DskipTests clean install'
         }
     }
