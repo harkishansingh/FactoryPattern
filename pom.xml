@@ -43,6 +43,21 @@
 			<version>1.10.19</version>
 			<scope>test</scope>
 		</dependency>
+		<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.harki.factoryPattern.AppConfig</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 
 	</dependencies>
