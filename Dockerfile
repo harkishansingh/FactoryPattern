@@ -1,5 +1,5 @@
 FROM java:8
 WORKDIR /
-ADD target/*.jar HelloWorld.jar
+ADD target/*.jar factoryPattern.jar
 EXPOSE 8088
-CMD java -jar HelloWorld.jar
+CMD java -jar factoryPattern.jar
