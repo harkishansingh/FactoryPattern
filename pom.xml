@@ -43,7 +43,8 @@
 			<version>1.10.19</version>
 			<scope>test</scope>
 		</dependency>
-		<build>
+	</dependencies>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -58,7 +59,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
-	</dependencies>
 </project>
